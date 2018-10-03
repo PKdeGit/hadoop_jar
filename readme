@@ -1,5 +1,5 @@
-FileSystemCat.jar [hdfs目标文件]  
-myhadoop/pengkai/hadoopDemo/FileSystemCat 查看文档并输出到屏幕
+fileCat.jar [hdfs目标文件]  
+FileSystemCat 查看文档并输出到屏幕
 
 wc.jar [hdfs目标文件]
 wordCountRunner 统计单词数目

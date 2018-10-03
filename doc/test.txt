@@ -1,4 +1,0 @@
-hello john
-hello jim
-hello world
-john world
