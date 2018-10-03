@@ -1,11 +1,14 @@
-fileCat.jar [hdfs目标文件]  
-FileSystemCat 查看文档并输出到屏幕
+分别对应：jar名 主类名 参数
+fileCat.jar FileSystemCat [hdfs目标文件]  
+查看文档并输出到屏幕
+egg:$ hadoop jar fileCat.jar FileSystemCat /input/test.txt
+在屏幕上输出test.txt的内容
 
-wc.jar [hdfs目标文件]
-wordCountRunner 统计单词数目
+wc.jar wordCountRunner [hdfs目标文件]
+统计单词数目
 
-copy.jar   [本地src] [hdfs dst]
-FileCopyWithProgress 带有进程汇报的拷贝:将src拷贝到dst
+copy.jar FileCopyWithProgress  [本地src] [hdfs dst]
+带有进程汇报的拷贝:将src拷贝到dst
 
-listStatus.jar [...若干个hdfs文件路径]
-ListStatus 列出文件状态
+listStatus.jar ListStatus [...若干个hdfs文件路径]
+列出文件状态
