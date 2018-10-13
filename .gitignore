@@ -1,1 +1,5 @@
 doc
+auto_jar
+example.jar
+test.java
+*.class
