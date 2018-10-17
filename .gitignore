@@ -3,3 +3,4 @@ auto_jar
 example.jar
 test.java
 *.class
+*.dat
